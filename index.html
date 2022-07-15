@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="msapplication-TileColor" content="#160f0f" />
+  <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
+  <meta name="theme-color" content="#160f0f" />
+  <title>Вход - Историк</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#160f0f" />
+  <link rel="shortcut icon" href="./favicon/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope&family=Playfair+Display:wght@400;500;700&family=Raleway:wght@600;700;800&display=swap" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="navbar-base">
+      <a class="navbar-brand" href="">Историк</a>
+      <button class="navbar-toggler"></button>
+    </div>
+    <ul class="navbar-nav">
+      <li>
+        <a class="nav-link" href="/">Личный кабинет</a>
+      </li>
+      <li>
+        <a class="nav-link" href="/">Журнал</a>
+      </li>
+      <li>
+        <a class="nav-link" href="/">Новости</a>
+      </li>
+      <li>
+        <a class="nav-link" href="/">Архив</a>
+      </li>
+      <li>
+        <a class="nav-link" href="/">О нас</a>
+      </li>
+      <li>
+        <a class="nav-search" href="/">
+          <span class="nav-link">Поиск</span>
+          <img src="./resources/icons/search.svg" alt="Поиск" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="form-wrapper">
+    <div class="form">
+      <div class="form-title">
+        <h2 class="header-2">Вход</h2>
+        <div class="divider"></div>
+        <a class="header-2" href="/">Регистрация</a>
+      </div>
+      <form class="form-body">
+        <div class="form-group">
+          <label class="form-label" for="email">E-mail</label>
+          <input class="form-control" type="email" id="email" name="email" placeholder="Введите e-mail" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="password">Пароль</label>
+          <div class="form-control-addon">
+            <input class="form-control" type="password" id="password" name="password" placeholder="Введите пароль" />
+            <button id="password-toggler" class="addon-btn" type="button"></button>
+          </div>
+        </div>
+        <button class="btn" type="submit">Войти</button>
+        <a href="/">Забыли пароль?</a>
+      </form>
+    </div>
+  </div>
+
+  <script src="./main.js" type="text/javascript"></script>
+</body>
+</html>

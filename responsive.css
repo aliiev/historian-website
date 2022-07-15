@@ -1,0 +1,155 @@
+
+@media (max-width: 1600px) {
+  body {
+    padding: 0 30px;
+  }
+
+  .navbar {
+    padding: 25px 30px;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 26px;
+  }
+
+  .navbar .navbar-nav {
+    column-gap: 32px;
+  }
+
+  .navbar .nav-link {
+    font-size: 16px;
+  }
+
+  .header-2 {
+    font-size: 26px;
+  }
+
+  .form {
+    width: 75%;
+    padding: 30px 40px;
+  }
+
+  .form .form-title {
+    column-gap: 20px;
+  }
+
+  .form .form-body {
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 15px;
+  }
+
+  a {
+    font-size: 11px;
+  }
+
+  .header-2 {
+    font-size: 18px;
+  }
+
+  .form-label {
+    padding-left: 0;
+  }
+
+  .form-control {
+    font-size: 12px;
+    padding: 14px 8px;
+  }
+
+  .form-control-addon .form-control {
+    padding-right: 32px;
+  }
+
+  .form-control-addon .addon-btn {
+    right: 8px;
+  }
+
+  .btn {
+    padding: 14px 28px;
+  }
+
+  .navbar {
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 62px;
+    padding: 27px 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .navbar.active {
+    background: #160f0f;
+    height: 100vh;
+    z-index: 2;
+  }
+
+  .navbar .navbar-base {
+    width: 100%;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar.active .navbar-brand {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .navbar .navbar-toggler {
+    display: block;
+  }
+
+  .navbar .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+    margin-left: 30px;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .navbar.active .navbar-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar .nav-link {
+    font-size: 13px;
+  }
+
+  .navbar .nav-search img {
+    display: none;
+  }
+
+  .navbar .nav-search .nav-link {
+    display: block;
+  }
+
+  .form {
+    border-radius: 3px;
+    width: 100%;
+    padding: 27px 15px;
+  }
+
+  .form .form-title {
+    column-gap: 10px;
+  }
+
+  .form .form-body {
+    row-gap: 20px;
+    padding-right: 0;
+  }
+
+  .form .btn {
+    width: 100%;
+  }
+}
