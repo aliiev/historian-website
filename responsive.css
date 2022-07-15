@@ -1,3 +1,4 @@
+/* LARGE DEVICES */
 
 @media (max-width: 1600px) {
   body {
@@ -25,8 +26,8 @@
   }
 
   .form {
-    width: 75%;
-    padding: 30px 40px;
+    width: 50%;
+    padding: 46px 60px;
   }
 
   .form .form-title {
@@ -38,38 +39,23 @@
   }
 }
 
+/* DESKTOP DEVICES */
+
+@media (max-width: 1024px) {
+  .navbar .nav-link {
+    font-size: 14px;
+  }
+
+  .form .form-body {
+    padding-right: 0;
+  }
+}
+
+/* TABLET DEVICES */
+
 @media (max-width: 768px) {
   body {
-    padding: 0 15px;
-  }
-
-  a {
-    font-size: 11px;
-  }
-
-  .header-2 {
-    font-size: 18px;
-  }
-
-  .form-label {
-    padding-left: 0;
-  }
-
-  .form-control {
-    font-size: 12px;
-    padding: 14px 8px;
-  }
-
-  .form-control-addon .form-control {
-    padding-right: 32px;
-  }
-
-  .form-control-addon .addon-btn {
-    right: 8px;
-  }
-
-  .btn {
-    padding: 14px 28px;
+    padding: 0 30px;
   }
 
   .navbar {
@@ -78,7 +64,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 62px;
-    padding: 27px 15px;
+    padding: 27px 30px;
     top: 0;
     left: 0;
     right: 0;
@@ -135,8 +121,53 @@
   }
 
   .form {
-    border-radius: 3px;
     width: 100%;
+    padding: 27px 45px;
+  }
+}
+
+/* MOBILE DEVICES */
+
+@media (max-width: 425px) {
+  body {
+    padding: 0 15px;
+  }
+
+  a {
+    font-size: 11px;
+  }
+
+  .header-2 {
+    font-size: 18px;
+  }
+
+  .form-label {
+    padding-left: 0;
+  }
+
+  .form-control {
+    font-size: 12px;
+    padding: 14px 8px;
+  }
+
+  .form-control-addon .form-control {
+    padding-right: 32px;
+  }
+
+  .form-control-addon .addon-btn {
+    right: 8px;
+  }
+
+  .btn {
+    padding: 14px 28px;
+  }
+
+  .navbar {
+    padding: 27px 15px;
+  }
+
+  .form {
+    border-radius: 3px;
     padding: 27px 15px;
   }
 
