@@ -16,11 +16,11 @@ body {
   background: url('./resources/images/background.jpg') center no-repeat;
   background-color: #160f0f;
   background-size: cover;
-  width: 100%;
-  min-height: 100vh;
   font-family: 'Raleway';
   font-size: 16px;
   color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
   padding: 0 118px;
 }
 
