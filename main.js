@@ -3,15 +3,18 @@
 const navbar = document.querySelector('.navbar')
 const navbarToggler = document.querySelector('.navbar-toggler')
 
-navbarToggler.onclick = () => {
+navbarToggler.addEventListener('click', () => {
   navbar.classList.toggle('active')
-}
+})
 
 // SHOW PASSWORD TOGGLER
 
-const passwordInput = document.querySelector('#password')
-const passwordToggler = document.querySelector('#password-toggler')
+const passwordToggler = document.querySelectorAll('.password-toggler')
 
-passwordToggler.onclick = () => {
-  passwordInput.type = passwordInput.type == 'password' ? 'text' : 'password'
-}
+passwordToggler.forEach(toggler => {
+  toggler.addEventListener('click', () => {
+    const passwordInput = toggler.parentNode.querySelector('.form-control')
+    passwordInput.type = passwordInput.type == 'password' ? 'text' : 'password'
+  })
+
+})

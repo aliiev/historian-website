@@ -6,7 +6,7 @@
   <meta name="msapplication-TileColor" content="#160f0f" />
   <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
   <meta name="theme-color" content="#160f0f" />
-  <title>Вход - Историк</title>
+  <title>Регистрация - Историк</title>
   <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="./responsive.css">
 </head>
 <body>
-
+  
   <nav class="navbar">
     <div class="navbar-base">
       <a class="navbar-brand" href="">Историк</a>
@@ -54,9 +54,9 @@
   <div class="form-wrapper">
     <div class="form">
       <div class="form-title">
-        <h2 class="header-2">Вход</h2>
+        <a class="header-2" href="/">Вход</a>
         <div class="divider"></div>
-        <a class="header-2" href="register.html">Регистрация</a>
+        <h2 class="header-2">Регистрация</h2>
       </div>
       <form class="form-body">
         <div class="form-group">
@@ -70,8 +70,14 @@
             <button class="password-toggler addon-btn" type="button"></button>
           </div>
         </div>
-        <button class="btn" type="submit">Войти</button>
-        <a href="/">Забыли пароль?</a>
+        <div class="form-group">
+          <label class="form-label" for="password">Повторите пароль</label>
+          <div class="form-control-addon">
+            <input class="form-control" type="password" id="repeat_password" name="repeat_password" placeholder="Введите пароль" />
+            <button class="password-toggler addon-btn" type="button"></button>
+          </div>
+        </div>
+        <button class="btn" type="submit">Зарегистрироваться</button>
       </form>
     </div>
   </div>
