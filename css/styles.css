@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: url('./resources/images/background.jpg') center no-repeat;
+  background: url('../resources/images/background.jpg') center no-repeat;
   background-color: #160f0f;
   background-size: cover;
   font-family: 'Raleway';
@@ -116,7 +116,7 @@ a.header-2:hover, a.header-2:focus {
 
 .form-control-addon .addon-btn {
   position: absolute;
-  background: url('./resources/icons/eye.svg') center no-repeat;
+  background: url('../resources/icons/eye.svg') center no-repeat;
   background-size: contain;
   border: none;
   width: 24px;
@@ -182,7 +182,7 @@ a.header-2:hover, a.header-2:focus {
 
 .navbar .navbar-toggler {
   display: none;
-  background: url('./resources/icons/menu.svg') center no-repeat;
+  background: url('../resources/icons/menu.svg') center no-repeat;
   background-size: contain;
   border: none;
   width: 24px;
@@ -190,7 +190,7 @@ a.header-2:hover, a.header-2:focus {
 }
 
 .navbar.active .navbar-toggler {
-  background: url('./resources/icons/close.svg') center no-repeat;
+  background: url('../resources/icons/close.svg') center no-repeat;
   background-size: contain;
   transition: background 0.1s ease-in-out;
 }
